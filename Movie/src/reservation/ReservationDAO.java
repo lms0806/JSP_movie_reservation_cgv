@@ -13,10 +13,10 @@ public class ReservationDAO {
 	
 	public ReservationDAO() {
 		try {
-			String dbURL = "jdbc:mysql://localhost:3306/movie?serverTimezone=UTC";
-			String dbID = "root";
-			String dbPassword = "3510";
-			Class.forName("com.mysql.cj.jdbc.Driver");
+			String dbURL = "";
+			String dbID = "";
+			String dbPassword = "";
+			Class.forName("");
 			conn = DriverManager.getConnection(dbURL, dbID, dbPassword);
 		} catch(Exception e) {
 			e.printStackTrace();
